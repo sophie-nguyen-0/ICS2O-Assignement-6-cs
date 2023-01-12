@@ -28,9 +28,9 @@ class Program
         JsonNode anime = animequote!["anime"]!;
         JsonNode character = animequote!["character"]!;
         JsonNode quote = animequote!["quote"]!;
-      
+
         Console.WriteLine("anime: " + anime);
-        Console.WriteLine( " ' " + quote + " '");
+        Console.WriteLine(" ' " + quote + " '");
         Console.WriteLine("- " + character);
     }
 }
